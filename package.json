@@ -22,19 +22,19 @@
       "dev": "concurrently \"npm run server\" \"npm run client\"",
       "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build -- prefix client"
     },
-    "name": "contact-bank",
+    "name": "contact-database",
     "version": "1.0.0",
     "main": "server.js",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/GregPetropoulos/Contact-Bank.git"
+      "url": "git+https://github.com/k0d1ngk1dd/contact-database.git"
     },
-    "author": "Greg Petropoulos",
+    "author": "Koding Kidd",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/GregPetropoulos/Contact-Bank/issues"
+      "url": "https://github.com/k0d1ngk1dd/contact-database/issues"
     },
-    "homepage": "https://github.com/GregPetropoulos/Contact-Bank#readme",
+    "homepage": "https://github.com/k0d1ngk1dd/contact-database#readme",
     "description": ""
   }
   
